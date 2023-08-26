@@ -1,7 +1,8 @@
+import { HiArrowDown } from "react-icons/hi";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left border-red-500">
         {/* image */}
         <div className="md:w-2/5 flex justify-center items-center">
           <img
@@ -31,6 +32,11 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
+      <a href="#projects">
+        <div className="flex  item-center justify-center">
+          <HiArrowDown size={35} className="animate-bounce" />
+        </div>
+      </a>
     </section>
   );
 };

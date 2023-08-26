@@ -23,7 +23,9 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
 
     if (ref.current) {
       observer.observe(ref.current);
+      console.log(ref.current, "reeeeeeff");
     }
+    console.log(ref, "reeeeeeff");
   }, [ref]);
 
   return (

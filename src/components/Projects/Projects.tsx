@@ -1,4 +1,3 @@
-import React from "react";
 import SlideUp from "../SlideUp/SlideUp.tsx";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
@@ -7,9 +6,9 @@ const projects = [
     name: "Mining BlockTrack",
     description:
       "BlockTrack is a web app build with React ,Express , MongoDB, Dynamo DB , Solidity , ChainLink . So the web app is a dashboard for the traders to visualize their rubber and or Gold farms as well as track customers and their trades.  A mobile app also built to facilitate mining trades for small scale miners  ",
-    image: "/thankfulthoughts.png",
+    image: "./blockdor.PNG",
     github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    link: "https://blockdor-cebed.web.app/",
   },
   {
     name: "Nax Cosmetics",
@@ -63,7 +62,7 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section id="projects">
-      <h1 className="my-10 text-center font-bold text-4xl">
+      <h1 className="my-8 text-center font-bold text-4xl">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>

@@ -10,10 +10,12 @@ const App: FC = (): ReactElement => {
     <div className="min-h-100 flex flex-col">
       <Navbar />
 
-      <HeroSection />
-      <About />
-      <ProjectsSection />
-      <Footer />
+      <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+        <HeroSection />
+        <About />
+        <ProjectsSection />
+        <Footer />
+      </main>
     </div>
   );
 };
